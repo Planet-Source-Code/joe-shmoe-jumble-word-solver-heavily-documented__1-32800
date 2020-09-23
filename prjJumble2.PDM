@@ -1,0 +1,92 @@
+[Root]
+Most Recent Package=unJumbler
+
+
+[Package|unJumbler|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Program Files\Microsoft Visual Studio\VB98\jumble\Jumble2\Package
+
+[Package|unJumbler|Configure DAO ISAMs]
+Applicable=No
+
+[Package|unJumbler|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|unJumbler|Files Found]
+
+[Package|unJumbler|Files Released]
+
+[Package|unJumbler|Missing Dependency Information]
+
+[Package|unJumbler|Out-of-Date Dependency Information]
+
+[Package|unJumbler|Files Added]
+C:\Program Files\Microsoft Visual Studio\VB98\jumble\Jumble2\ACD9.txt=
+
+[Package|unJumbler|Files Removed]
+
+[Package|unJumbler|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\jumble\Jumble2\prjJumble2.exe=Yes
+C:\WINDOWS\SYSTEM\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\jumble\Jumble2\ACD9.txt=Yes
+
+[Package|unJumbler|Configure Registry Files]
+Applicable=No
+
+[Package|unJumbler|Configure Remote Servers]
+Applicable=No
+
+[Package|unJumbler|Install Locations]
+C:\Program Files\Microsoft Visual Studio\VB98\jumble\Jumble2\prjJumble2.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\jumble\Jumble2\ACD9.txt=$(AppPath)
+
+[Package|unJumbler|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\jumble\Jumble2\prjJumble2.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\jumble\Jumble2\ACD9.txt=No
+
+[Package|unJumbler|Distribution]
+Type=single
+Size=
+Title=Un-Jumbler
+
+[Package|unJumbler|IconGroups]
+Group0=$(Programs)
+PrivateGroup0=True
+Parent0=
+
+[Package|unJumbler|$(Programs)]
+Icon1=prjJumble2.exe
+Title1=Un-Jumbler
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|unJumbler|Package]
+PackageFolder=C:\Program Files\Microsoft Visual Studio\VB98\jumble\Jumble2\Package
+ProjectFolder=C:\Program Files\Microsoft Visual Studio\VB98\jumble\Jumble2
+ServerSideCab=
+File1=C:\Program Files\Microsoft Visual Studio\VB98\jumble\Jumble2\Package\setup.exe
+File2=C:\Program Files\Microsoft Visual Studio\VB98\jumble\Jumble2\Package\Setup.Lst
+File3=C:\Program Files\Microsoft Visual Studio\VB98\jumble\Jumble2\Package\prjJumble2.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
